@@ -1,0 +1,578 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Controller",
+      "email": "admin@nilamart.com",
+      "password_hash": "$2b$10$Q4xs.8/H2yOvObNyBrJ.EeFHwSZxI.P7Z1if7Tw1afp3CDYag6aO.",
+      "role": "ADMIN",
+      "created_at": "2026-09-01T08:00:00.000Z",
+      "updated_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "ElectroTech Global Seller",
+      "email": "seller.tech@nilamart.com",
+      "password_hash": "$2b$10$R8jewghy9khbfdF..FVLO.VZaJHJ4CekDX9Cfza6swEzOKz3.wo2i",
+      "role": "SELLER",
+      "created_at": "2026-09-05T10:15:00.000Z",
+      "updated_at": "2026-09-05T10:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Aura Fashion & Apparel",
+      "email": "seller.fashion@nilamart.com",
+      "password_hash": "$2b$10$R8jewghy9khbfdF..FVLO.VZaJHJ4CekDX9Cfza6swEzOKz3.wo2i",
+      "role": "SELLER",
+      "created_at": "2026-09-10T11:30:00.000Z",
+      "updated_at": "2026-09-10T11:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Alice Buyer",
+      "email": "buyer.alice@nilamart.com",
+      "password_hash": "$2b$10$rMAjw8jBo1KYOm36mQA/KOT9Cytidi0aExz4qvlfnlq.bXqlksAY2",
+      "role": "BUYER",
+      "created_at": "2026-09-15T14:20:00.000Z",
+      "updated_at": "2026-09-15T14:20:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Bob Shopper",
+      "email": "buyer.bob@nilamart.com",
+      "password_hash": "$2b$10$rMAjw8jBo1KYOm36mQA/KOT9Cytidi0aExz4qvlfnlq.bXqlksAY2",
+      "role": "BUYER",
+      "created_at": "2026-09-20T09:45:00.000Z",
+      "updated_at": "2026-09-20T09:45:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Test Buyer 33645",
+      "email": "buyer.test.33645@nilamart.com",
+      "password_hash": "$2b$10$OC2JcuaZ5afnEcdiQSzPKuid2wRZpbtAqA2UNW5d.m1JSj1pmo3gG",
+      "role": "BUYER",
+      "created_at": "2026-10-21T05:38:36.810Z",
+      "updated_at": "2026-10-21T05:38:36.810Z"
+    },
+    {
+      "id": 7,
+      "name": "Test Buyer 44994",
+      "email": "buyer.test.44994@nilamart.com",
+      "password_hash": "$2b$10$jrVnYLCzwHk8vtLY1WM9XO8yMU7SoDgqQC9sL/o2lH0AYudpN57fu",
+      "role": "BUYER",
+      "created_at": "2026-10-21T05:39:09.445Z",
+      "updated_at": "2026-10-21T05:39:09.445Z"
+    },
+    {
+      "id": 8,
+      "name": "Test Buyer 63210",
+      "email": "buyer.test.63210@nilamart.com",
+      "password_hash": "$2b$10$T2ojkRDQ2C6USIkzLdzoV.PpnPcP6ebP9DUNtB7UxhQkr6LwUP4mK",
+      "role": "BUYER",
+      "created_at": "2026-10-21T05:39:39.507Z",
+      "updated_at": "2026-10-21T05:39:39.507Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics & Gadgets",
+      "description": "Smartphones, audio, laptops, and smart home appliances",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Fashion & Apparel",
+      "description": "Men and women designer clothing, footwear, and accessories",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Home & Kitchen",
+      "description": "Modern cookware, ergonomic furniture, and smart appliances",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Books & Learning",
+      "description": "Bestsellers, technical guides, computer science, and fiction",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Beauty & Self Care",
+      "description": "Organic skincare, fragrances, and grooming essentials",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Sports & Fitness",
+      "description": "Gym equipment, wearable trackers, and outdoor athletic gear",
+      "created_at": "2026-09-01T08:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "seller_id": 2,
+      "category_id": 1,
+      "name": "ProNoise Wireless ANC Headphones",
+      "description": "Ultra-comfortable over-ear active noise cancelling headphones with 45-hour battery life, high-res audio drivers, and crystal-clear microphone.",
+      "price": 149.99,
+      "stock_quantity": 41,
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-12T10:00:00.000Z",
+      "updated_at": "2026-10-21T05:39:39.666Z"
+    },
+    {
+      "id": 2,
+      "seller_id": 2,
+      "category_id": 1,
+      "name": "UltraView 27\" 4K HDR Monitor",
+      "description": "IPS professional display with 99% sRGB color accuracy, USB-C 65W power delivery, 144Hz refresh rate, and height-adjustable stand.",
+      "price": 389.5,
+      "stock_quantity": 18,
+      "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-14T11:20:00.000Z",
+      "updated_at": "2026-09-14T11:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "seller_id": 2,
+      "category_id": 1,
+      "name": "Mechanical Wireless Gaming Keyboard",
+      "description": "Hot-swappable tactile mechanical switches with per-key RGB backlighting, aircraft aluminum frame, and tri-mode Bluetooth/2.4G/Wired connection.",
+      "price": 99,
+      "stock_quantity": 32,
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-15T15:45:00.000Z",
+      "updated_at": "2026-09-15T15:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "seller_id": 2,
+      "category_id": 1,
+      "name": "Precision Wireless Ergonomic Mouse",
+      "description": "Customizable thumb scroll wheel, 8000 DPI sensor on glass, ergonomic palm rest, and quiet click mechanism for productivity.",
+      "price": 69.99,
+      "stock_quantity": 50,
+      "image_url": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-16T09:10:00.000Z",
+      "updated_at": "2026-09-16T09:10:00.000Z"
+    },
+    {
+      "id": 5,
+      "seller_id": 3,
+      "category_id": 2,
+      "name": "Merino Wool Minimalist Crewneck",
+      "description": "Sustainably sourced 100% fine Merino wool sweater. Ultra-breathable, odor resistant, and machine washable. Tailored modern fit.",
+      "price": 89,
+      "stock_quantity": 40,
+      "image_url": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-18T13:00:00.000Z",
+      "updated_at": "2026-09-18T13:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "seller_id": 3,
+      "category_id": 2,
+      "name": "Everyday Canvas Commuter Backpack",
+      "description": "Water-resistant coated canvas with padded 16-inch laptop compartment, luggage pass-through strap, and magnetic Fidlock buckles.",
+      "price": 79.5,
+      "stock_quantity": 25,
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-20T16:30:00.000Z",
+      "updated_at": "2026-09-20T16:30:00.000Z"
+    },
+    {
+      "id": 7,
+      "seller_id": 3,
+      "category_id": 2,
+      "name": "Classic Chronograph Quartz Watch",
+      "description": "Surgical-grade 316L stainless steel casing with scratch-resistant sapphire crystal glass and genuine Italian leather quick-release strap.",
+      "price": 125,
+      "stock_quantity": 20,
+      "image_url": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-22T10:15:00.000Z",
+      "updated_at": "2026-09-22T10:15:00.000Z"
+    },
+    {
+      "id": 8,
+      "seller_id": 2,
+      "category_id": 3,
+      "name": "Smart Temperature Pour-Over Kettle",
+      "description": "Gooseneck precision pour spout with 1-degree temperature control, 60-minute heat hold, and integrated stopwatch LCD display.",
+      "price": 119,
+      "stock_quantity": 15,
+      "image_url": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-25T11:00:00.000Z",
+      "updated_at": "2026-09-25T11:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "seller_id": 2,
+      "category_id": 3,
+      "name": "Cast Iron Pre-Seasoned Dutch Oven",
+      "description": "Heavy-duty 5.5-quart enameled cast iron pot with self-basting lid. Oven safe up to 500°F. Perfect for artisanal bread and stews.",
+      "price": 85,
+      "stock_quantity": 30,
+      "image_url": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-09-28T14:00:00.000Z",
+      "updated_at": "2026-09-28T14:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "seller_id": 3,
+      "category_id": 4,
+      "name": "Designing Data-Intensive Applications",
+      "description": "The definitive guide to distributed architectures, storage engines, transactional semantics, and replication strategies by Martin Kleppmann.",
+      "price": 48,
+      "stock_quantity": 60,
+      "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-10-01T08:30:00.000Z",
+      "updated_at": "2026-10-01T08:30:00.000Z"
+    },
+    {
+      "id": 11,
+      "seller_id": 3,
+      "category_id": 4,
+      "name": "Modern C++20 Programming in Practice",
+      "description": "Hands-on architectural patterns covering coroutines, concepts, ranges, Drogon web service engineering, and low-latency systems.",
+      "price": 54.99,
+      "stock_quantity": 40,
+      "image_url": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-10-02T09:15:00.000Z",
+      "updated_at": "2026-10-02T09:15:00.000Z"
+    },
+    {
+      "id": 12,
+      "seller_id": 3,
+      "category_id": 5,
+      "name": "Botanical Facial Hydration Serum",
+      "description": "Cold-pressed botanical oils infused with Hyaluronic acid and Vitamin C. 100% vegan, cruelty-free, and dermatologically tested.",
+      "price": 38,
+      "stock_quantity": 75,
+      "image_url": "https://images.unsplash.com/photo-1608248597359-00958348a274?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-10-05T12:00:00.000Z",
+      "updated_at": "2026-10-05T12:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "seller_id": 2,
+      "category_id": 6,
+      "name": "Adjustable Dumbbell Set (5 to 52.5 lbs)",
+      "description": "Rapid weight selection dial replaces 15 sets of weights in a compact footprint. Heavy-duty cast iron molding with rubber grip.",
+      "price": 299,
+      "stock_quantity": 10,
+      "image_url": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-10-08T15:00:00.000Z",
+      "updated_at": "2026-10-08T15:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "seller_id": 2,
+      "category_id": 6,
+      "name": "Smart GPS Multisport Fitness Watch",
+      "description": "Continuous wrist optical heart rate, multi-band GPS routing, VO2 max estimate, sleep stages analysis, and 14-day battery life.",
+      "price": 219,
+      "stock_quantity": 22,
+      "image_url": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2026-10-10T16:45:00.000Z",
+      "updated_at": "2026-10-10T16:45:00.000Z"
+    }
+  ],
+  "cart_items": [
+    {
+      "id": 1,
+      "buyer_id": 4,
+      "product_id": 5,
+      "quantity": 1,
+      "created_at": "2026-10-19T20:00:00.000Z",
+      "updated_at": "2026-10-19T20:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "buyer_id": 4,
+      "product_id": 10,
+      "quantity": 2,
+      "created_at": "2026-10-19T20:05:00.000Z",
+      "updated_at": "2026-10-19T20:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "buyer_id": 6,
+      "product_id": 1,
+      "quantity": 2,
+      "created_at": "2026-10-21T05:38:36.984Z",
+      "updated_at": "2026-10-21T05:38:36.984Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "buyer_id": 4,
+      "total_amount": 219.98,
+      "status": "DELIVERED",
+      "shipping_address": "742 Evergreen Terrace, Springfield, OR",
+      "created_at": "2026-10-02T14:30:00.000Z",
+      "updated_at": "2026-10-06T18:00:00.000Z"
+    },
+    {
+      "id": 1002,
+      "buyer_id": 4,
+      "total_amount": 389.5,
+      "status": "SHIPPED",
+      "shipping_address": "742 Evergreen Terrace, Springfield, OR",
+      "created_at": "2026-10-12T11:20:00.000Z",
+      "updated_at": "2026-10-14T09:00:00.000Z"
+    },
+    {
+      "id": 1003,
+      "buyer_id": 5,
+      "total_amount": 149.99,
+      "status": "CONFIRMED",
+      "shipping_address": "221B Baker Street, London, UK",
+      "created_at": "2026-10-18T16:15:00.000Z",
+      "updated_at": "2026-10-19T10:00:00.000Z"
+    },
+    {
+      "id": 1004,
+      "buyer_id": 7,
+      "total_amount": 323.98,
+      "status": "CONFIRMED",
+      "shipping_address": "100 Silicon Way, Tech City, CA",
+      "created_at": "2026-10-21T05:39:09.603Z",
+      "updated_at": "2026-10-21T05:39:09.603Z"
+    },
+    {
+      "id": 1005,
+      "buyer_id": 8,
+      "total_amount": 323.98,
+      "status": "CONFIRMED",
+      "shipping_address": "100 Silicon Way, Tech City, CA",
+      "created_at": "2026-10-21T05:39:39.666Z",
+      "updated_at": "2026-10-21T05:39:39.666Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "order_id": 1001,
+      "product_id": 1,
+      "seller_id": 2,
+      "product_name": "ProNoise Wireless ANC Headphones",
+      "unit_price": 149.99,
+      "quantity": 1,
+      "subtotal": 149.99,
+      "created_at": "2026-10-02T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "order_id": 1001,
+      "product_id": 4,
+      "seller_id": 2,
+      "product_name": "Precision Wireless Ergonomic Mouse",
+      "unit_price": 69.99,
+      "quantity": 1,
+      "subtotal": 69.99,
+      "created_at": "2026-10-02T14:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "order_id": 1002,
+      "product_id": 2,
+      "seller_id": 2,
+      "product_name": "UltraView 27\" 4K HDR Monitor",
+      "unit_price": 389.5,
+      "quantity": 1,
+      "subtotal": 389.5,
+      "created_at": "2026-10-12T11:20:00.000Z"
+    },
+    {
+      "id": 4,
+      "order_id": 1003,
+      "product_id": 1,
+      "seller_id": 2,
+      "product_name": "ProNoise Wireless ANC Headphones",
+      "unit_price": 149.99,
+      "quantity": 1,
+      "subtotal": 149.99,
+      "created_at": "2026-10-18T16:15:00.000Z"
+    },
+    {
+      "product_id": 1,
+      "seller_id": 2,
+      "product_name": "ProNoise Wireless ANC Headphones",
+      "unit_price": 149.99,
+      "quantity": 2,
+      "subtotal": 299.98,
+      "created_at": "2026-10-21T05:39:09.603Z",
+      "id": 5,
+      "order_id": 1004
+    },
+    {
+      "product_id": 1,
+      "seller_id": 2,
+      "product_name": "ProNoise Wireless ANC Headphones",
+      "unit_price": 149.99,
+      "quantity": 2,
+      "subtotal": 299.98,
+      "created_at": "2026-10-21T05:39:39.666Z",
+      "id": 6,
+      "order_id": 1005
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "buyer_id": 4,
+      "product_id": 1,
+      "rating": 5,
+      "comment": "Exceptional noise cancellation! Wore this on a cross-country flight and the battery was still above 80%. Audio profile is punchy and balanced.",
+      "created_at": "2026-10-07T10:00:00.000Z",
+      "updated_at": "2026-10-07T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "buyer_id": 4,
+      "product_id": 4,
+      "rating": 5,
+      "comment": "The horizontal scroll wheel and ergonomic grip completely cured my wrist strain during long coding sessions. Highly recommended!",
+      "created_at": "2026-10-08T14:15:00.000Z",
+      "updated_at": "2026-10-08T14:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "buyer_id": 7,
+      "product_id": 1,
+      "rating": 5,
+      "comment": "Outstanding noise cancellation! Received and verified after purchase.",
+      "created_at": "2026-10-21T05:39:09.608Z",
+      "updated_at": "2026-10-21T05:39:09.608Z"
+    },
+    {
+      "id": 4,
+      "buyer_id": 8,
+      "product_id": 1,
+      "rating": 5,
+      "comment": "Outstanding noise cancellation! Received and verified after purchase.",
+      "created_at": "2026-10-21T05:39:39.672Z",
+      "updated_at": "2026-10-21T05:39:39.672Z"
+    }
+  ],
+  "wishlist_items": [
+    {
+      "id": 1,
+      "buyer_id": 4,
+      "product_id": 3,
+      "created_at": "2026-10-15T12:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "buyer_id": 4,
+      "product_id": 8,
+      "created_at": "2026-10-16T17:30:00.000Z"
+    }
+  ],
+  "order_status_history": [
+    {
+      "id": 1,
+      "order_id": 1001,
+      "old_status": null,
+      "new_status": "PENDING",
+      "changed_by": 4,
+      "changed_at": "2026-10-02T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "order_id": 1001,
+      "old_status": "PENDING",
+      "new_status": "CONFIRMED",
+      "changed_by": 1,
+      "changed_at": "2026-10-03T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "order_id": 1001,
+      "old_status": "CONFIRMED",
+      "new_status": "SHIPPED",
+      "changed_by": 2,
+      "changed_at": "2026-10-04T11:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "order_id": 1001,
+      "old_status": "SHIPPED",
+      "new_status": "DELIVERED",
+      "changed_by": 1,
+      "changed_at": "2026-10-06T18:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "order_id": 1002,
+      "old_status": null,
+      "new_status": "PENDING",
+      "changed_by": 4,
+      "changed_at": "2026-10-12T11:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "order_id": 1002,
+      "old_status": "PENDING",
+      "new_status": "CONFIRMED",
+      "changed_by": 1,
+      "changed_at": "2026-10-13T08:45:00.000Z"
+    },
+    {
+      "id": 7,
+      "order_id": 1002,
+      "old_status": "CONFIRMED",
+      "new_status": "SHIPPED",
+      "changed_by": 2,
+      "changed_at": "2026-10-14T09:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "order_id": 1003,
+      "old_status": null,
+      "new_status": "PENDING",
+      "changed_by": 5,
+      "changed_at": "2026-10-18T16:15:00.000Z"
+    },
+    {
+      "id": 9,
+      "order_id": 1003,
+      "old_status": "PENDING",
+      "new_status": "CONFIRMED",
+      "changed_by": 1,
+      "changed_at": "2026-10-19T10:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "order_id": 1004,
+      "old_status": null,
+      "new_status": "CONFIRMED",
+      "changed_by": 7,
+      "changed_at": "2026-10-21T05:39:09.603Z"
+    },
+    {
+      "id": 11,
+      "order_id": 1005,
+      "old_status": null,
+      "new_status": "CONFIRMED",
+      "changed_by": 8,
+      "changed_at": "2026-10-21T05:39:39.666Z"
+    }
+  ],
+  "nextIds": {
+    "users": 9,
+    "categories": 7,
+    "products": 18,
+    "cart_items": 6,
+    "orders": 1006,
+    "order_items": 7,
+    "reviews": 5,
+    "wishlist_items": 3,
+    "order_status_history": 12
+  }
+}

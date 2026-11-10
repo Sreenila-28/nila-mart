@@ -1,0 +1,6 @@
+{
+  "name": "NilaMart - Full-Stack E-Commerce & C++ Drogon Architecture",
+  "description": "Enterprise e-commerce platform with Amazon/Flipkart scale architecture, PostgreSQL relational schema, C++20 Drogon REST API backend, role-based access for Buyer, Seller, and Admin, real-time checkout transactions, and AI shopping assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

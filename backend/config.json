@@ -1,0 +1,57 @@
+{
+  "listeners": [
+    {
+      "address": "0.0.0.0",
+      "port": 8080,
+      "https": false
+    }
+  ],
+  "db_clients": [
+    {
+      "name": "default",
+      "rdbms": "postgresql",
+      "host": "127.0.0.1",
+      "port": 5432,
+      "dbname": "nilamart",
+      "user": "nilamart_user",
+      "passwd": "nilamart_password",
+      "is_fast": false,
+      "connection_number": 10
+    }
+  ],
+  "app": {
+    "number_of_threads": 4,
+    "enable_session": true,
+    "session_timeout": 86400,
+    "document_root": "./frontend",
+    "home_page": "index.html",
+    "upload_path": "./uploads",
+    "client_max_body_size": "10M",
+    "use_sendfile": true,
+    "use_gzip": true,
+    "static_file_headers": [
+      {
+        "path": "/assets",
+        "headers": [
+          "Cache-Control: max-age=86400"
+        ]
+      }
+    ],
+    "log": {
+      "log_path": "./logs",
+      "logfile_base_name": "nilamart",
+      "log_size_limit": 104857600,
+      "log_level": "DEBUG"
+    }
+  },
+  "custom_config": {
+    "jwt_secret": "NilaMart_Secure_Capstone_JWT_Secret_Key_2026",
+    "gemini_api_key_env": "GEMINI_API_KEY",
+    "cors_allowed_origins": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000",
+      "http://localhost:8080",
+      "http://127.0.0.1:8080"
+    ]
+  }
+}
